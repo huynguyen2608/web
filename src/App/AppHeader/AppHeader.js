@@ -103,7 +103,7 @@ const ResponsiveAppBar = () => {
                 />
               </Col>
               <Col xs={11}>
-                <Nav className="option-navbar ml-70">
+                <Nav className="option-navbar ml-120">
                   <NavItem>
                     <NavLink
                       style={{ color: "white", cursor: "pointer" }}
