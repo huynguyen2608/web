@@ -1,0 +1,52 @@
+@import "../../Styles/until";
+
+.footer-app{
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75));
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-top: 15px;
+    @include smartPhone{
+        padding-top: 5px;
+
+    }
+    h1 {
+        font-size: 1.1rem;
+        border-bottom: 1px solid white;
+        padding: 10px;
+        margin-bottom: 30px;
+        @include smartPhone{
+            font-size: 0.7rem;
+        }
+    }
+    h6 {
+        @include smartPhone{
+            font-size: 0.7rem;
+        }
+    }
+    p {
+        font-size: 0.85em;
+        margin-bottom: 8px;
+        @include smartPhone{
+            font-size: 0.7rem;
+        }
+    }
+    li {
+        font-size: 0.85em;
+        @include smartPhone{
+            font-size: 0.7rem;
+        }
+    }
+    
+}
+
+.text-botton {
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.90), rgba(0,0,0,0.80));
+    color: white;
+    padding: 6px;
+    font-size: 1.05em;
+    @include smartPhone{
+        font-size: 0.7rem;
+    }
+}

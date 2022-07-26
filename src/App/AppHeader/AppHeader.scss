@@ -1,0 +1,49 @@
+.app-header-container{
+    margin: 0px !important;
+    padding: 0px;
+    position: fixed;
+    background-color: #33bfff;
+    z-index: 100;
+    max-height: 300px;
+    align-items: center;
+    height: 67px;
+    font-size: 1.07em;
+    width: 100%;
+    .logo-app{
+        padding-left: 60px;
+        cursor: pointer;
+    }
+
+    .option{
+
+       
+    }
+    
+}
+.nav-item{
+    margin: 0px;
+}
+.option-navbar{
+    list-style: none;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    color: black;
+
+    .option-item:hover{
+        cursor: pointer;
+        border-radius: 16px;
+        color: #31456A;
+    }
+    .option-item{
+        text-align: center;
+        border-radius: 16px;
+        cursor: pointer;
+        margin: 0 10px;
+        color: white;
+        text-transform: uppercase;
+        list-style: none;
+        display: inline-block;
+        text-decoration: none;
+    }
+}

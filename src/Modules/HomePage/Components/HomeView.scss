@@ -1,0 +1,45 @@
+@import "../../../Styles/until";
+
+.title-h3{
+    color:red;
+    @include smartPhone {
+        font-size: 100%;
+    }
+}
+
+.title-h4{
+    color: red;
+    @include smartPhone {
+        font-size: 90%;
+    }
+}
+.view-text{
+    font-size: 1.2em;
+    padding-top: 3px;
+    color: rgb(0, 0, 128);
+    @include smartPhone {
+        font-size: 0.8rem;
+        margin: 5px 20px 0px 20px;
+    }
+}
+span{
+    font-family: 'times new roman', times, serif;
+    font-size: 150%; 
+    background-color: #ffff00;
+    margin: 4px;
+    @include smartPhone {
+        font-size: 100%;
+    }
+}
+.text-1{
+    color: rgb(216, 49, 49);
+    font-style: italic;
+    @include smartPhone {
+        font-size: 80%;
+        margin: 5px 20px 0px 20px;
+    }
+}
+.size-original {
+    margin-top: 10px;
+    width: 100%;
+}
