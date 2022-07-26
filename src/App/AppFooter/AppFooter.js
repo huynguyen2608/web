@@ -7,7 +7,7 @@ class AppFooter extends React.Component {
     render() {
         return (
             <div>
-                <Row className="m-0 footer-app">
+                <Row className="m-0 footer-app pb-30">
                     {/* <Col xs="2"></Col> */}
                     <Col xs="4">
                         <h1>THÔNG TIN LIÊN HỆ</h1>
