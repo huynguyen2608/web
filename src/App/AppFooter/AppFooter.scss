@@ -16,6 +16,7 @@
         padding: 10px;
         margin-bottom: 30px;
         @include smartPhone{
+            margin-bottom: 15px;
             font-size: 0.7rem;
         }
     }
@@ -33,6 +34,8 @@
     }
     li {
         font-size: 0.85em;
+        // list-style: none;
+        margin: 0;
         @include smartPhone{
             font-size: 0.7rem;
         }

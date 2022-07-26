@@ -15,9 +15,9 @@ function CameraView(props) {
                         <tr>
                             <td style={{ width: "50%;" }}>
                                 <img
-                                    class="alignnone size-full wp-image-124"
+                                    className=" size-image wp-image-124"
                                     src="https://internetfpttoanquoc.com/wp-content/uploads/2021/11/camindoor.jpg"
-                                    alt="Camindoor" width="540" height="310"
+                                    alt="Camindoor"
                                     srcset="https://tongdaifpt24.online/wp-content/uploads/2021/11/camindoor.jpg 1000w, https://tongdaifpt24.online/wp-content/uploads/2021/11/camindoor-300x200.jpg 300w, https://tongdaifpt24.online/wp-content/uploads/2021/11/camindoor-768x512.jpg 768w"
                                     sizes="(max-width: 1000px) 100vw, 1000px"
                                 />
@@ -25,7 +25,7 @@ function CameraView(props) {
                             <td style={{ width: "50%;" }}>
                                 <img
                                     loading="lazy"
-                                    class=" ml-15"
+                                    className="size-image ml-15"
                                     src="https://internetfpttoanquoc.com/wp-content/uploads/2021/11/camout.jpg"
                                     alt="Camout" width="540" height="310"
                                     srcset="https://tongdaifpt24.online/wp-content/uploads/2021/11/camout.jpg 672w, https://tongdaifpt24.online/wp-content/uploads/2021/11/camout-300x200.jpg 300w"

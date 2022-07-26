@@ -40,7 +40,7 @@ const ResponsiveAppBar = () => {
               src="https://internetfpttoanquoc.com/wp-content/uploads/2021/04/FPT_Telecom_logo.svg"
               class="header_logo header-logo"
               alt="Lắp Mạng Cáp Quang FPT"
-              onClick={() => goto("app/home")}
+              onClick={() => goto("home")}
             />
             <div>
               <Popover
@@ -55,35 +55,35 @@ const ResponsiveAppBar = () => {
                 <Typography
                   sx={{ p: 1 }}
                   style={{ borderBottom: "1px solid", fontSize: "0.7rem" }}
-                  onClick={() => goto("app/fiber")}
+                  onClick={() => goto("fiber")}
                 >
                   LẮP CÁP QUANG FPT{" "}
                 </Typography>
                 <Typography
                   sx={{ p: 1 }}
                   style={{ borderBottom: "1px solid", fontSize: "0.7rem" }}
-                  onClick={() => goto("app/tv")}
+                  onClick={() => goto("tv")}
                 >
                   TRUYỀN HÌNH FPT{" "}
                 </Typography>
                 <Typography
                   sx={{ p: 1 }}
                   style={{ borderBottom: "1px solid", fontSize: "0.7rem" }}
-                  onClick={() => goto("app/camera")}
+                  onClick={() => goto("camera")}
                 >
                   FPT CAMERA
                 </Typography>
                 <Typography
                   sx={{ p: 1 }}
                   style={{ borderBottom: "1px solid", fontSize: "0.7rem" }}
-                  onClick={() => goto("app/register")}
+                  onClick={() => goto("register")}
                 >
                   ĐĂNG KÝ ONLINE
                 </Typography>
                 <Typography
                   sx={{ p: 1 }}
                   style={{ fontSize: "0.7rem" }}
-                  onClick={() => goto("app/news")}
+                  onClick={() => goto("news")}
                 >
                   TIN TỨC
                 </Typography>
@@ -99,7 +99,7 @@ const ResponsiveAppBar = () => {
                   height="45"
                   src="https://internetfpttoanquoc.com/wp-content/uploads/2021/04/FPT_Telecom_logo.svg"
                   alt="Lắp Mạng Cáp Quang FPT"
-                  onClick={() => goto("app/home")}
+                  onClick={() => goto("home")}
                 />
               </Col>
               <Col xs={11}>
@@ -108,7 +108,7 @@ const ResponsiveAppBar = () => {
                     <NavLink
                       style={{ color: "white", cursor: "pointer" }}
                       className="option-item"
-                      onClick={() => goto("app/fiber")}
+                      onClick={() => goto("fiber")}
                     >
                       {" "}
                       LẮP CÁP QUANG FPT
@@ -118,7 +118,7 @@ const ResponsiveAppBar = () => {
                     <NavLink
                       style={{ color: "white", cursor: "pointer" }}
                       className="option-item"
-                      onClick={() => goto("app/tv")}
+                      onClick={() => goto("tv")}
                     >
                       {" "}
                       TRUYỀN HÌNH FPT
@@ -128,7 +128,7 @@ const ResponsiveAppBar = () => {
                     <NavLink
                       style={{ color: "white", cursor: "pointer" }}
                       className="option-item"
-                      onClick={() => goto("app/camera")}
+                      onClick={() => goto("camera")}
                     >
                       {" "}
                       FPT CAMERA
@@ -138,7 +138,7 @@ const ResponsiveAppBar = () => {
                     <NavLink
                       style={{ color: "white", cursor: "pointer" }}
                       className="option-item"
-                      onClick={() => goto("app/register")}
+                      onClick={() => goto("register")}
                     >
                       {" "}
                       ĐĂNG KÝ ONLINE
@@ -148,7 +148,7 @@ const ResponsiveAppBar = () => {
                     <NavLink
                       style={{ color: "white", cursor: "pointer" }}
                       className="option-item"
-                      onClick={() => goto("app/news")}
+                      onClick={() => goto("news")}
                     >
                       {" "}
                       TIN TỨC

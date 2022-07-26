@@ -1,13 +1,74 @@
+@import "../../../Styles/until";
+
 .register-online{
-    width: 75%;
+    width: 70%;
     display: block;
     margin: 0 auto;
+    @include smartPhone{
+        width: 95%;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    @include desktop {
+        width: 85%;
+    }
 }
-.img-center {
+
+.register-h2{
+    @include smartPhone{
+        font-size: 0.93rem;
+    }
+}
+
+.p-bold{
+    font-weight: bold;
+    font-size: 1rem;
+    @include smartPhone{
+        font-size: 0.6rem;
+    }
+}
+
+.p-text{
+    font-size: 1rem;
+    @include smartPhone{
+        font-size: 0.6rem;
+    }
+}
+
+.hotline-text-h4{
+    margin-left: 5px;
+    font-size: 19px;
+    @include smartPhone{
+        font-size: 0.75rem;
+    }
+}
+
+.a-text{
+    background-color: #ffff00;
+    color: #282828;
+    text-decoration: none;
+    font-size: 20px;
+    @include smartPhone{
+        font-size: 0.75rem;
+    }
+}
+
+.img-center-register-1{
     display: block;
     justify-content: center;
     margin: 25px auto;
+    @include smartPhone{
+        margin: 10px auto;
+        width: 80%;
+    }
 }
-.p-bold{
-    font-weight: bold;
+
+.img-center-register-2{
+    display: block;
+    justify-content: center;
+    margin: 25px auto;
+    @include smartPhone{
+        margin: 10px auto;
+        width: 65%;
+    }
 }

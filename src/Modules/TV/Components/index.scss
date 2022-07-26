@@ -1,9 +1,46 @@
-.view-tv{
-    .img-1{
-        height: 339px;
-    
+@import "../../../Styles/until";
+
+
+.camera-app{
+    width: 70%;
+    @include smartPhone {
+        width: 80%;
     }
-    .img-2{
-        height: 563px;
+    @include desktop {
+        width: 85%;
+    }
+}
+.view-tv{
+    // .img-1{
+    //     height: 339px;
+    
+    // }
+    // .img-2{
+    //     height: 563px;
+    // }
+}
+
+.img-tv-1{
+    width: 1000px;
+    height:309px;
+    @include smartPhone{
+        width: 93%;
+        height:120px;
+    }
+}
+
+.img-tv-2{
+    width: 1000px;
+    height:563px;
+    @include smartPhone{
+        width: 93%;
+        height:250px;
+    }
+}
+
+.text-tv-1{
+    @include smartPhone{
+        margin-left: 10px;
+        font-size: 0.7rem;
     }
 }
