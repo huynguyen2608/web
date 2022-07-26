@@ -92,7 +92,7 @@ const ResponsiveAppBar = () => {
           </Box>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             <Row>
-              <Col xs={2}>
+              <Col xs={1}>
                 <img
                   style={{ cursor: "pointer" }}
                   width="140"
@@ -102,7 +102,7 @@ const ResponsiveAppBar = () => {
                   onClick={() => goto("app/home")}
                 />
               </Col>
-              <Col xs={10}>
+              <Col xs={11}>
                 <Nav className="option-navbar ml-70">
                   <NavItem>
                     <NavLink
