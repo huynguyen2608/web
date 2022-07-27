@@ -1,8 +1,9 @@
 import React from 'react';
+import "./index.scss";
 
 function NewsView(props) {
     return (
-        <div>
+        <div className='news-home'>
             
         </div>
     );

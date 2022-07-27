@@ -1,0 +1,8 @@
+@import "../../../Styles/until";
+
+.news-home{
+    height: 1200px;
+    @include smartPhone {
+        height: 530px;
+    }
+}

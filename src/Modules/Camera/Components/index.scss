@@ -4,7 +4,8 @@
     width: 70%;
     margin: 15px auto;
     @include smartPhone {
-        width: 90%;
+        width: 95%;
+        margin: 5px auto;
     }
     @include desktop {
         width: 85%;
@@ -24,6 +25,7 @@
     color: #282828;
     @include smartPhone {
         font-size: 80%;
+        padding-left: 15px;
     }
 
     .p-bold{
@@ -44,6 +46,13 @@
 }
 .text-li{
     font-size: 0.9em;
+    @include smartPhone {
+        font-size: 60%;
+        li{
+            margin-left: 5px;
+            line-height: 1.8em;
+        }
+    }
 }
 
 .size-image{
@@ -53,5 +62,21 @@
     @include smartPhone {
         width: 90%;
         height: 100px;
+        margin-top: 5px;
+    }
+}
+.border-left{
+    padding-left: 25px;
+    @include smartPhone {
+        padding-left: 10px;
+        font-size: 70%;
+        
+    }
+}
+.class-img-camera{
+    margin-top: 30px;
+    @include smartPhone {
+        margin-top: 0px;
+        
     }
 }

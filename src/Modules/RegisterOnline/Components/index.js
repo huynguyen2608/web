@@ -13,7 +13,8 @@ function RegisterOnlineView(props) {
                 Đăng ký
                 <span>
                     <a
-                        style={{color:"#282828", backgroundColor:"#ffff00;", fontSize:"20px", textDecoration:"none"}}
+                        style={{color:"#282828", backgroundColor:"#ffff00;", textDecoration:"none"}}
+                        className="a-span"
                         href="https://fpt.vn/shop?click_id=348806d794a348f7af723083445e0b3a&amp;aff_network=SF&amp;aff_sid=348806d794a348f7af723083445e0b3a&amp;utm_source=accesstrade&amp;gidzl=OG8dNeRQZGzk5IHUWyEB2saK85IPaTi591Dn1Ch0YrGc5YK7pvRVLISLTLQTp8bI8Kbp1JFUuPXdZTEE2W">Tại Đây&nbsp;</a>
                 </span>
             </p>
@@ -24,7 +25,7 @@ function RegisterOnlineView(props) {
                 />
                 Hướng dẫn đăng ký Online
             </p>
-            <p className='p-bold mt-30'>Bước 1 : Chọn Khu vực</p>
+            <p className='p-bold mt-20'>Bước 1 : Chọn Khu vực</p>
             <p>
                 <img
                     className='img-center-register-1'

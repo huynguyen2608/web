@@ -9,7 +9,7 @@ function CameraView(props) {
                 <h3 className='p-bold'>GIỚI THIỆU VỀ CAMERA FPT</h3>
                 <p className='text-review'>Camera FPT là sản phẩm mới và chuyên biệt nhất của FPT Telecom. Sản phẩm này không sử dụng ổ cứng lưu trữ thông thường mà toàn bộ video/hình ảnh sẽ được xử lý mã hóa và chuyển thẳng lên server. Chỉ duy nhất chủ nhân camera mới có thể quan sát và theo dõi video và hình ảnh của camera quan sát được</p>
             </div>
-            <p className='justify-content-center mt-30'>
+            <p className='justify-content-center class-img-camera'>
                 <table style={{ borderCollapse: "collapse", width: "100%;" }}>
                     <tbody>
                         <tr>
@@ -27,7 +27,7 @@ function CameraView(props) {
                                     loading="lazy"
                                     className="size-image ml-15"
                                     src="https://internetfpttoanquoc.com/wp-content/uploads/2021/11/camout.jpg"
-                                    alt="Camout" width="540" height="310"
+                                    alt="Camout"
                                     srcset="https://tongdaifpt24.online/wp-content/uploads/2021/11/camout.jpg 672w, https://tongdaifpt24.online/wp-content/uploads/2021/11/camout-300x200.jpg 300w"
                                     sizes="(max-width: 672px) 100vw, 672px"
                                 />
@@ -39,7 +39,7 @@ function CameraView(props) {
             <p>
                 <Row>
                     <Col xs="6">
-                        <p className='pl-25 border-left'>Sản phẩm Camera FPT trong nhà</p>
+                        <p className='border-left'>Sản phẩm Camera FPT trong nhà</p>
                         <p className='text-li'>Camera trong nhà FPT Telecom đã sử dụng những công nghệ</p>
                         <p className='text-li'>
                             <li>Cảm biến 1/2.8” Sony IMX307 – Full HD 1080P</li>
@@ -52,7 +52,7 @@ function CameraView(props) {
                         </p>
                     </Col>
                     <Col xs="6">
-                        <p className='pl-25 border-left'>Sản phẩm Camera FPT ngoài trời</p>
+                        <p className='border-left'>Sản phẩm Camera FPT ngoài trời</p>
                         <p className='text-li'>Camera ngoài trời FPT Telecom đã sử dụng những công nghệ</p>
                         <p className='text-li'>
                             <li>Cảm biến 1/2.8” Sony IMX307 Full HD 1080P</li>
